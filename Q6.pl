@@ -7,7 +7,7 @@ go :-   write('Number :'),
         read(Pow),
         power(Num,Pow, Ans),
         write('Result :'),
-        write(Ans).
+        write(Ans), nl.
 
 
 

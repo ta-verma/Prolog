@@ -6,7 +6,7 @@ go :-   write('First :'),
         read(B),
         sum(A,B,R),
         write('Sum :'),
-        write(R).
+        write(R),nl.
 
 sum(A,B,R) :- R is A+B.
 

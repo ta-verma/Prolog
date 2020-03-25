@@ -4,7 +4,7 @@ go :-   write('Enter Number :'),
         read(N),
         factorial(N,F),
         write('Factorial :'),
-        write(F).
+        write(F), nl.
 
 
 factorial(0,1).

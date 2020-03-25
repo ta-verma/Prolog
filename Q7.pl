@@ -6,7 +6,7 @@ go :-   write('First :'),
         read(N2),
         multi(N1,N2,R),
         write('Sum :'),
-        write(R).
+        write(R), nl.
 
 multi(N1,1,N1).
 

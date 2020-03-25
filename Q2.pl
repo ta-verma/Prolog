@@ -6,7 +6,7 @@ go :-   write('First :'),
         read(Y),
         max(X,Y,M),
         write('Max :'),
-        write(M).
+        write(M), nl.
 
 max(X,Y,Y) :- X<Y.
 max(X,Y,X) :- X>Y.

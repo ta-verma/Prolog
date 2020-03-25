@@ -4,7 +4,7 @@ go :- write('Enter a list'), nl,
       createList(L1),
       write('Enter element to find :'),
       read(X),
-      memb(X,L1).
+      memb(X,L1), nl.
 
 enterEle(X) :- write('Enter element :'),
                read(X).

@@ -6,7 +6,7 @@ go :-   write('First :'),
         read(B),
         gcd(A,B,R),
         write('Result :'),
-        write(R).
+        write(R), nl.
 
 gcd(X,X,X).
 

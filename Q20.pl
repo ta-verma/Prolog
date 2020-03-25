@@ -20,7 +20,7 @@ createList(X,[X|T]) :- enterEle(X1), createList(X1,T).
 
 mysublist([],_).
 
-mysublist(_,[]):- write('false').
+mysublist(_,[]):- write('false'), nl.
 
 mysublist([H1|T1],[H1|T2]):- mysublist(T1,T2).
 

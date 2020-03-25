@@ -4,7 +4,7 @@ go :-   write('Enter Number :'),
         read(N),
         towerofhanoi(N,T),
         write('Result :'),
-        write(T).
+        write(T), nl.
 
 power(Num,1,Num).
 

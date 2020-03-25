@@ -4,7 +4,7 @@ go :-   write('Enter Number :'),
         read(N),
         generate_fib(N-1,T),
         write('Result :'),
-        write(T).
+        write(T), nl.
 
 generate_fib(0,1).
 
